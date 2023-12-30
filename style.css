@@ -172,33 +172,25 @@ section {
   height: 80vh;
 }
 
-/* ... (Previous CSS code) ... */
-
-/* Keyframe animation */
 @keyframes morph {
   0% {
     transform: scale(1.25) rotate(0deg);
-    background-color: red; /* Add initial background color */
     border-radius: 36%; /* Add initial border-radius */
   }
   25% {
     transform: scale(1.25) rotate(0deg);
-    background-color: red; /* Add initial background color */
     border-radius: 45%; /* Add initial border-radius */
   }
   50% {
     transform: scale(1.25) rotate(0deg);
-    background-color: yellow; /* Add intermediate background color */
     border-radius: 54%; /* Add intermediate border-radius */
   }
   75% {
     transform: scale(1.25) rotate(0deg);
-    background-color: yellow; /* Add intermediate background color */
     border-radius: 45%; /* Add intermediate border-radius */
   }
   100% {
     transform: scale(1.25) rotate(0deg);
-    background-color: green; /* Add final background color */
     border-radius: 36%; /* Add final border-radius */
   }
 }
@@ -360,6 +352,7 @@ section {
 
 #about {
   position: relative;
+  padding-top: 28px;
 }
 
 .about-containers {
