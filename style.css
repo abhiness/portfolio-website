@@ -187,6 +187,7 @@ section {
 
 .section__text__p1 {
   text-align: center;
+  margin-top: 100px;
 }
 
 .section__text__p2 {
@@ -197,6 +198,7 @@ section {
 .title {
   font-size: 3rem;
   text-align: center;
+  margin-top: 100px;
 }
 
 #socials-container {
