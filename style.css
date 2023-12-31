@@ -268,8 +268,11 @@ section {
 
 .section__text__p1__about {
   text-align: center;
-  font-size: 16px; /* changed rem to px */
+  font-size: 70px; /* changed rem to px */
   margin: 75px 0 0 20px;
+  color: black;
+  font-weight: bold;
+  padding-bottom: 75px;
 }
 
 .section__text__p2 {
@@ -285,7 +288,7 @@ section {
 .title-about {
   margin-top: 75px;
   margin-bottom: 60px;
-  font-size: 80px; /* changed rem to px */
+  font-size: 80px;
   text-align: center;
 }
 
