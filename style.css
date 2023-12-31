@@ -269,7 +269,16 @@ section {
 .section__text__p1__about {
   text-align: center;
   font-size: 70px; /* changed rem to px */
-  margin: 75px 0 0 20px;
+  margin: 75px auto 0 20px; /* Center horizontally with 'auto' */
+  color: black;
+  font-weight: bold;
+  padding-bottom: 75px;
+}
+
+.section__text__p1___contact {
+  text-align: center;
+  font-size: 70px; /* changed rem to px */
+  margin: 125px auto 0 20px; /* Center horizontally with 'auto' */
   color: black;
   font-weight: bold;
   padding-bottom: 75px;
