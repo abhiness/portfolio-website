@@ -269,10 +269,18 @@ section {
 .section__text__p1__about {
   text-align: center;
   font-size: 70px; /* changed rem to px */
-  margin: 75px auto 0 20px; /* Center horizontally with 'auto' */
+  margin: 75px auto 0 10px; /* Center horizontally with 'auto' */
   color: black;
   font-weight: bold;
   padding-bottom: 75px;
+}
+
+.section__text__p1__explore {
+  text-align: center;
+  font-size: 16px; /* changed rem to px */
+  margin-top: 75px;
+  margin-bottom: 10px;
+  justify-content: center;
 }
 
 .section__text__p1___contact {
@@ -301,10 +309,17 @@ section {
   text-align: center;
 }
 
+.title_experience {
+  font-size: 80px; /* changed rem to px */
+  text-align: center;
+  margin-top: 35px;
+}
+
 #socials-container {
   display: flex;
   justify-content: center;
-  margin-top: 16px; /* changed rem to px */
+  margin-top: 5px; /* changed rem to px */
+  margin-bottom: 35px;
   gap: 16px; /* changed rem to px */
 }
 
@@ -502,7 +517,7 @@ article .icon {
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   background: (250, 250, 250);
-  margin: 32px auto; /* changed rem to px */
+  margin: 75px auto; /* changed rem to px */
   padding: 8px; /* changed rem to px */
 }
 
