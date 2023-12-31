@@ -293,11 +293,10 @@ section {
 }
 
 .section__text__p1_projects {
-  text-align: center;
   font-size: 16px; /* changed rem to px */
   margin-top: 155px;
-  margin-bottom: 5px;
   justify-content: center;
+  text-align: center;
 }
 
 .section__text__p2 {
@@ -327,6 +326,7 @@ section {
   font-size: 80px; /* changed rem to px */
   text-align: center;
   margin-top: 10px;
+  justify-content: center;
 }
 
 #socials-container {
