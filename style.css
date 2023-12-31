@@ -286,17 +286,19 @@ section {
 .section__text__p1___contact {
   text-align: center;
   font-size: 70px; /* changed rem to px */
-  margin: 125px auto 0 20px; /* Center horizontally with 'auto' */
+  margin-top: 125px; /* Center horizontally with 'auto' */
   color: black;
   font-weight: bold;
-  padding-bottom: 75px;
+  padding-top: 275px;
+  align-items: center;
 }
 
 .section__text__p1_projects {
-  font-size: 16px; /* changed rem to px */
+  font-size: 16px;
   margin-top: 155px;
   justify-content: center;
   text-align: center;
+  margin-top: 225px;
 }
 
 .section__text__p2 {
@@ -520,7 +522,7 @@ article .icon {
   flex-direction: column;
   height: 50vh;
   border: 15px;
-  padding: 80px;
+  padding: 120px;
   margin: 175px 0 0 90px;
 }
 
