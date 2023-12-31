@@ -211,9 +211,9 @@ section {
 .section__pic-container {
   position: relative;
   overflow: hidden;
-  height: 700px;
-  width: 700px;
-  margin: auto;
+  height: 630px;
+  width: 630px;
+  margin: 75px 0 0 25px;
   -webkit-animation: morph 8s ease-in-out infinite;
   animation: morph 8s ease-in-out infinite;
   background-image: url(/assets/profile-pic-2.png);
