@@ -298,7 +298,7 @@ section {
   justify-content: center;
   text-align: center;
   margin-top: 225px;
-  margin-bottom: 125px;
+  margin-bottom: 25px;
 }
 
 .section__text__p2 {
@@ -325,7 +325,7 @@ section {
 }
 
 .title_projects {
-  font-size: 80px; /* changed rem to px */
+  font-size: 80px;
   text-align: center;
   margin-top: 10px;
   justify-content: center;
@@ -529,7 +529,7 @@ article .icon {
   height: 50vh;
   border: 15px;
   padding: 120px;
-  margin: 125px 0 0 40px;
+  margin: 425px 0 0 40px;
 }
 
 .contact-info-upper-container {
