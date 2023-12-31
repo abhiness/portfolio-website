@@ -298,6 +298,7 @@ section {
   justify-content: center;
   text-align: center;
   margin-top: 225px;
+  margin-bottom: 125px;
 }
 
 .section__text__p2 {
@@ -522,12 +523,13 @@ article .icon {
 /* CONTACT */
 #contact {
   display: flex;
+  position: relative;
   justify-content: center;
   flex-direction: column;
   height: 50vh;
   border: 15px;
   padding: 120px;
-  margin: 725px 0 0 40px;
+  margin: 275px 0 0 40px;
 }
 
 .contact-info-upper-container {
