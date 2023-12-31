@@ -512,12 +512,51 @@ article .icon {
 /* CONTACT */
 
 /* FOOTER SECTION */
+/* Add this CSS for the Footer */
+
 footer {
-  height: 26vh;
-  margin: 0 16px;
-  margin-top: 120px;
+  background-color: #333; /* Choose a background color for the footer */
+  color: #fff; /* Choose a text color for the footer */
+  padding: 2px 0; /* Adjust the padding as needed */
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
-footer p {
+nav {
   text-align: center;
+}
+
+.nav-links-container-footer {
+  display: inline-block;
+}
+
+.nav-links-footer {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links-footer li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.nav-links-footer a {
+  text-decoration: none;
+  color: #fff; /* Choose a color for the navigation links */
+  font-weight: bold;
+}
+
+.nav-links-footer a:hover {
+  border-bottom: 2px solid #fff; /* Add a bottom border on hover */
+}
+
+/* Add more styling if needed based on your design preferences */
+
+/* Adjust the styling for the copyright text */
+footer p {
+  margin: 5px 0 0;
+  font-size: 14px; /* Adjust the font size as needed */
+  position: relative;
 }
