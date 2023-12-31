@@ -289,7 +289,7 @@ section {
   color: black;
   font-weight: bold;
   padding-top: 275px;
-  align-items: center;
+  position: relative;
 }
 
 .section__text__p1_projects {
@@ -501,7 +501,7 @@ article .icon {
   border-color: rgb(163, 163, 163);
   background: rgb(250, 250, 250);
   padding-bottom: 30px;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
 }
 
 .project-img {
@@ -545,6 +545,7 @@ article .icon {
 
 .contact-info-container {
   display: flex;
+  position: relative;
   align-items: center;
   justify-content: center;
   gap: 8px; /* changed rem to px */
