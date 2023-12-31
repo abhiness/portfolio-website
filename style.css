@@ -266,12 +266,25 @@ section {
   font-size: 16px; /* changed rem to px */
 }
 
+.section__text__p1__about {
+  text-align: center;
+  font-size: 16px; /* changed rem to px */
+  margin: 75px 0 0 20px;
+}
+
 .section__text__p2 {
   font-size: 28px; /* changed rem to px */
   margin-bottom: 16px; /* changed rem to px */
 }
 
 .title {
+  font-size: 80px; /* changed rem to px */
+  text-align: center;
+}
+
+.title-about {
+  margin-top: 75px;
+  margin-bottom: 30px;
   font-size: 80px; /* changed rem to px */
   text-align: center;
 }
