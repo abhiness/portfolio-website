@@ -166,8 +166,6 @@ section {
   height: 80vh;
 }
 
-/* ... (Previous CSS code) ... */
-
 /* Keyframe animation */
 @keyframes morph {
   0% {
@@ -213,7 +211,6 @@ section {
   }
 }
 
-/* Selector for the element with the provided styles */
 .section__pic-container {
   position: relative;
   overflow: hidden;
@@ -348,12 +345,13 @@ section {
 /* ABOUT SECTION */
 #about {
   position: relative;
+  margin-bottom: 75px;
 }
 
 .about-containers {
   gap: 2rem;
   margin-bottom: 2rem;
-  margin-top: 8rem;
+  margin-top: 12rem;
 }
 
 .about-details-container {
@@ -445,6 +443,8 @@ article .icon {
 .color-container {
   border-color: rgb(163, 163, 163);
   background: rgb(250, 250, 250);
+  padding-bottom: 30px;
+  margin-bottom: 80px;
 }
 
 .project-img {
@@ -468,7 +468,10 @@ article .icon {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 70vh;
+  height: 50vh;
+  border: 15px;
+  padding: 80px;
+  margin: 175px 0 0 90px;
 }
 
 .contact-info-upper-container {
